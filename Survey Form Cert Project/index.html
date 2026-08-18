@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Best Music Genre Form</h1>
+      <p id="description">Thank you for taking the time to give us your opinions on what the best music is!</p>
+    </header>
+    <main>
+      <form id="survey-form">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" required>
+          <br/>
+          <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" placeholder="Enter your email" required>
+          <br/>
+          <label id="number-label" for="number">Age (optional)</label>
+          <input id="number" type="number" size="5" min="0" max="100" placeholder="Age">
+
+
+          <label for="dropdown">Which option best describes your current role</label>
+          <select name="role" id="dropdown">
+            <option value="select" selected disabled>Select Current Role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label>Would you say you're a music listener </label>
+          <br/>
+          <input id="not-really-option" type="radio" name="music-listener" value="not-really">
+          <label for="not-really-option">Not Really</label>
+
+          <input id="yes-option" type="radio" name="music-listener" value="yes">
+          <label for="yes-option">Yes</label>
+
+          <input id="definitely" type="radio" name="music-listener" value="definitely">
+          <label for="definitely">Definitely</label>
+
+          <label for="aspect">What do you enjoy most about music?</label>
+          <select name="aspect" id="aspect">
+            <option value="select" selected disabled>Select Favorite Aspect</option>
+            <option value="lyrics">Lyrics</option>
+            <option value="guitars">Guitars</option>
+            <option value="drums">Drums</option>
+            <option value="beat">Beat</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label>What are your favorite music genres?</label>
+          <br/>
+          <input type="checkbox" id="metal" name="choice" value="metal"/>
+          <label for="metal">Metal</label>
+
+          <input type="checkbox" id="rock" name="choice" value="rock"/>
+          <label for="rock">Rock</label>
+
+          <input type="checkbox" id="pop" name="choice" value="pop"/>
+          <label for="pop">Pop</label>
+
+          <input type="checkbox" id="country" name="choice" value="country"/>
+          <label for="country">Country</label>
+
+          <input type="checkbox" id="jazz" name="choice" value="jazz"/>
+          <label for="jazz">Jazz</label>
+
+          <input type="checkbox" id="rap" name="choice" value="rap"/>
+          <label for="rap">Rap</label>
+
+          <input type="checkbox" id="r-b" name="choice" value="r-b"/>
+          <label for="r-b">R&amp;B</label>
+
+
+          <label for="comments">Any additional notes or comments you would like to add?</label>
+          <textarea id="comments">
+
+          </textarea>
+          <br/>
+          <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
