@@ -1,0 +1,46 @@
+* {
+  font-family: arial;
+}
+
+header, footer{
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.event-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 20px;
+}
+
+
+body {
+  padding: 50px 0px;
+  margin: 0 auto;
+  min-height: calc(100vh - 100px);
+  width: 80vw;
+  height: 30vh;
+}
+
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section {
+  text-align:center;
+  width: 33%;
+  background-color: lightblue;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+hr {
+  width: 80%;
+}
