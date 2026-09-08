@@ -1,0 +1,35 @@
+body {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.color-grid {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.color-box {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+
+}
+
+.color1 {
+  background-color: #FF0000;
+}
+.color2 {
+  background-color: rgb(100, 150, 150);
+}
+.color3 {
+  background-color: cyan;
+}
+.color4 {
+  background-color: hsl(90 0 50);
+}
+.color5 {
+  background-color: hsl(240, 60%, 50%);
+}
