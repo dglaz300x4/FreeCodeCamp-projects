@@ -1,0 +1,59 @@
+ h1, h2{
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 30%);
+}
+
+.pricing-card {
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: column;
+  flex: 0 0 200px;
+  border: 2px solid black;
+  background-color: rgba(25, 114, 230, 0.554);
+  box-shadow: 1px 1px 5px gray;
+  margin: 0 3px;
+}
+
+.pricing-card p {
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+.basic-plan {
+  order: 0;
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+  background-color: rgba(25, 114, 230, 0.701);
+}
+
+.premium-plan {
+  order: 2;
+}
+
+
+.included::before {
+  content: "V ";
+  color: green;
+}
+
+.excluded::before {
+  content: "X ";
+  color: red;
+}
