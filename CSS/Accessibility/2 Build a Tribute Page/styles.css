@@ -1,0 +1,53 @@
+#image {
+  display: block;
+  max-width: 100%;
+  max-height: 700px;
+  background-color: blue;
+  width: 700px;
+  height: auto;
+  margin: 10px auto;
+}
+
+* {
+  font-family: Arial;
+  color: rgb(55, 55, 55);
+}
+
+#main {
+  padding: 20px;
+  background-color: rgb(192, 192, 192);
+  border-radius: 5px;
+}
+
+#title, #sub-title, #img-caption, #tribute-info {
+  text-align: center;
+}
+
+#title {
+  font-size: 2.5em;
+}
+
+#sub-title, #img-caption, #tribute-info{
+  font-size: 1.5em;
+}
+
+
+
+#life-info {
+  padding: 10px 60px;
+  font-size: 1.2rem;
+}
+
+#life-info li {
+  padding: 5px;
+}
+
+#img-div {
+  padding: 30px;
+  background-color: rgb(215, 215, 215);
+  border-radius: 20px;
+}
+
+.quote {
+  font-weight: bold;
+}
