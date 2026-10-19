@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <nav id="navbar">
+        <header>C++ Documentation</header>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+        <a class="nav-link" href="#Comments">Comments</a>
+        <a class="nav-link" href="#If_Statements">If Statements</a>
+        <a class="nav-link" href="#Loops">Loops</a>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>Like many programming languages, C++ has variables which allow programmers to store data in their program.</p>
+        <p>There are many more variable types, but the four main variables are:</p>
+        <ul>
+          <li><code>bool</code>: A bool, or boolean, is a value that can only be true or false.<br> Example: <code>bool boolean = true;</code></li>
+          <li><code>string</code>: A string is a group (or string) of written symbols or characters, and is anything between the <code>""</code> symmbols.<br>Example: <code>string animal = "dog";</code></li>
+          <li><code>int</code>: An int, or integer, is any whole number, and can be positive or negative<br>Example: <code>int cows = 5;</code></li>
+          <li><code>double</code>: A double is any decimal number positive or negative<br>Example: <code>double cost = 5.99;</code></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>Functions in C++ are ways to simplify your code and make it easier to understand, while allowing you to stop repetitive code.</p>
+        <p>Functions have the following format:</p>
+        <code>returnType functionName(parameters){<br><br>
+            &emsp; code to run in function here
+
+          <br><br>}
+        </code>
+        <p><code>returnType</code> is the type of variable you would like to return in the function. Functions that have a return type of <code>void</code> do not return anything. While functions with other variable types return their respective variable. For example, a function with the return type of <code>string</code> will return only strings, while a function with the return type of <code>int</code> will only return integers.</p>
+        <p>The <code>functionName</code> variable is the name of the function and how it will be referenced in the code.</p>
+        <p><code>parameters</code> is the variables that can be used to be given to a function to use, we can cover those later.</p>
+        <p>Example:</p>
+        <code>string name(){<br>
+        &emsp;return "Jordan";
+        <br>}</code>
+        <p>To reference the function in your code you do the following.<br>
+        </p>
+        <code>name();</code>
+      </section>
+
+      <section class="main-section" id="Comments">
+        <header>Comments</header>
+        <p>Comments in C++ are ways to leave notes or comments into your code. They are ignored when you run your program and will only be noticed when looking at the code.</p>
+        <p>There are two types of comments:</p>
+        <ul>
+          <li>innline comments: Comments that are only on one line</li>
+          <li>multi-line comments: Comments that expand to multiple lines</li>
+        </ul>
+
+        <p>Examples:</p>
+        <code>
+          // Single line comment is anything after the two slashes
+          <br>
+          /* Any text within these slashes is considered
+          <br>
+          to be a muli-line comment */
+        </code>
+      </section>
+
+      <section class="main-section" id="If_Statements">
+        <header>If Statements</header>
+        <p>An <code>if</code> statement in C++ is a way to test your code when a certain condition is true.</p>
+        <p>An <code>if</code> statement can be used to check if a variable is equal to a specific type, or if a variable has the same as another.<br>Example:</p>
+        <code>if (dog == "dog"){<br>
+        &emsp; // Run code here
+        <br>}</code>
+      </section>
+
+      <section class="main-section" id="Loops">
+        <header>Loops</header>
+        <p>Loops in C++ are a way for a programmer to repeat their code, without having to type their code multiple times.</p>
+        <p>There are two main types of loops:
+          <ul>
+            <li><code>while</code></li>
+            <li><code>for</code></li>
+          </ul>
+        </p>
+      </section>
+
+    </main>
+  </body>
+</html>
