@@ -1,0 +1,121 @@
+:root {
+  /* Colors */
+  --color0: hsl(0, 0%, 100%);
+  --color1: hsl(120, 100%, 84%);
+  --color2: hsl(120, 100%, 68%);
+  --color3: hsl(120, 100%, 52%);
+  --color4: hsl(120, 100%, 36%);
+  --color5: hsl(120, 100%, 20%);
+
+  /* Borders */
+  --solid-border: 1px solid black;
+  --dashed-border: 1px dashed black;
+}
+
+* {
+  font-family: "Arial";
+}
+
+.available-0 {
+  background-color: var(--color0);
+}
+.available-1 {
+  background-color: var(--color1);
+}
+.available-2 {
+  background-color: var(--color2);
+}
+.available-3 {
+  background-color: var(--color3);
+}
+.available-4 {
+  background-color: var(--color4);
+}
+.available-5 {
+  background-color: var(--color5);
+}
+
+html {
+  background-color: rgb(169, 169, 169);
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  margin-left: 15%;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+.time {
+  position: relative;
+  top: -11px;
+}
+
+th {
+  width: 90px;
+}
+
+td, th {
+  height: 25px;
+}
+
+td {
+  margin: 0;
+  padding: 0;
+  border-left: var(--solid-border);
+  border-right: var(--solid-border);
+}
+
+.sharp td{
+  border-bottom: var(--solid-border);
+}
+
+.sharp th[scope="col"] {
+  border-bottom: var(--solid-border);
+}
+
+.half td{
+  border-bottom: var(--dashed-border);
+}
+
+#legend {
+  text-align: center;
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+#legend-gradient {
+  background-image: linear-gradient(
+    90deg,
+    var(--color0) 0%,
+    var(--color0) 16%,
+    var(--color1) 16%,
+    var(--color1) 32%,
+    var(--color2) 32%,
+    var(--color2) 48%,
+    var(--color3) 48%,
+    var(--color3) 64%,
+    var(--color4) 64%,
+    var(--color4) 81%,
+    var(--color5) 81%,
+    var(--color5) 100%
+  );
+  margin-left: 5px;
+  margin-right: 8px;
+  border: var(--solid-border);
+  width: 200px;
+  height: 2rem;
+}
+
+
+.ignore {
+  border: none;
+}
